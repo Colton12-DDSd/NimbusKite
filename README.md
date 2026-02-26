@@ -44,7 +44,7 @@ Update the logo component in:
 
 Header and brand references automatically reflect this component.
 
-## Vercel output directory note
+## Vercel build output note
 
-If your Vercel project was previously configured as a generic static project, set **Output Directory** to `out` in Project Settings, or keep the included `vercel.json` which explicitly sets `outputDirectory` to `out`.
+Use the project as a **Next.js** framework deployment and do **not** override Output Directory to `out` in Vercel Project Settings. Next.js deployments expect the default `.next` build artifacts (including `routes-manifest.json`) during build, and this repository is already configured correctly via `vercel.json`.
 
