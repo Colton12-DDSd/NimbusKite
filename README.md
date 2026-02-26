@@ -43,3 +43,8 @@ Update the logo component in:
 - `components/Logo.tsx`
 
 Header and brand references automatically reflect this component.
+
+## Vercel output directory note
+
+If your Vercel project was previously configured as a generic static project, set **Output Directory** to `out` in Project Settings, or keep the included `vercel.json` which explicitly sets `outputDirectory` to `out`.
+
