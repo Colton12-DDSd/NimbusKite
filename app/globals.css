@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-cloud text-ink antialiased;
+}
+
+main {
+  @apply min-h-[60vh];
+}
+
+.container-wrap {
+  @apply mx-auto w-full max-w-6xl px-6;
+}
